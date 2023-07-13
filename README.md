@@ -35,4 +35,7 @@ Introduction
 
 Documentation: https://plotly.com/python/
     
-  
+<a name="3"></a>
+### Scatter plots
+They allow the comparison of two variables for a set of data.
+

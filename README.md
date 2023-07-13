@@ -69,3 +69,18 @@ They allow the comparison of two variables for a set of data.
   <a name="7"></a>
 ### Box Plots 
 
++ Box plots visualize the variation of a feature by depicting the continuous numerical data through quartiles
++ we can then separate the data based on a categorical feature to compare the continuous feature based on category
++ the Box plot is a way of visually displaying the data distribution through their quartiles
++ Quartiles separate the data into 4 equal parts
++ the middle line is the median
++ The IQR is the interquartile range (the length of the filled in box Q3 - Q1)
++ Depending on the stylying, max and min values are shown with 'whiskers'
++ a Box plot identifies ourliers from the median compared to the rest of the data
++ Outliers are the values larger or smaller than Q3 or Q1 by at least 1.5 times the IQR
++ Outliers are displayed as singular markers outside the whiskers
++ we can actually use Box plots to perform a real analysis
+
+
+
+

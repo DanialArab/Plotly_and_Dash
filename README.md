@@ -2,6 +2,18 @@
 
 Reference: Interactive Python Dashboards with Plotly and Dash Udemy course
 
+
+1. [Introduction](#1)
+2. [Plotly Basics](#2)
+
+
+
+   
+<a name="1"></a>
+## Introduction
+
+Introduction
+
 + Dash is built upon Flask.
 + Matplotlib creates static image files
 + Seaborn is designed to ctaete nice looking statistical plots (static plots)
@@ -18,6 +30,9 @@ Reference: Interactive Python Dashboards with Plotly and Dash Udemy course
   + since Dash renders a full web app, we can then deploy our dashboards online for other people to use 
 
 
- 
+<a name="2"></a>
+## Plotly Basics
+
+Documentation: https://plotly.com/python/
     
   

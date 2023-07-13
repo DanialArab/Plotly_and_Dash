@@ -8,6 +8,7 @@ Reference: Interactive Python Dashboards with Plotly and Dash Udemy course
    1. [Scatter PLots](#3)
    2. [Line Charts](#4)
    3. [Bar Charts](#5)
+   4. [Bubble Plots](#6)
 
 
 
@@ -58,7 +59,6 @@ They allow the comparison of two variables for a set of data.
 + The y-axis can also be any aggregarion (count, sum, average, etc.)
 + Stacked bar charts vs. nested bar charts 
 
-
-
-
+<a name="6"></a>
+### Bubble Plots
 

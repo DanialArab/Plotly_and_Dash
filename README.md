@@ -9,6 +9,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    3. [Bar Charts](#5)
    4. [Bubble Plots](#6)
    5. [Box Plots](#7)
+   6. [Histograms](#8)
 
 
 
@@ -65,7 +66,7 @@ They allow the comparison of two variables for a set of data.
 + Bubble charts are very similar to Scatter plots, except we now convey a **third variable's information** through the **size of the markers**
 + We can also continue to add variable information by coloring points based on a category
 
-  <a name="7"></a>
+<a name="7"></a>
 ### Box Plots 
 
 + Box plots visualize the variation of a feature by depicting the **continuous numerical data through quartiles**
@@ -80,6 +81,8 @@ They allow the comparison of two variables for a set of data.
 + Outliers are displayed as singular markers outside the whiskers
 + we can actually use Box plots to perform a real analysis
 
+<a name="8"></a>
+### Histograms  
 
 
 

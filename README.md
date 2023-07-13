@@ -46,6 +46,6 @@ They allow the comparison of two variables for a set of data.
 ### Line Charts
 
 + A line chart displays a series of data points (markers) connected by line segments
-+ It is similar to a scatter plot except that the measurement points are **ordered (typically by their x-axos value)** and joined with straight line segments
++ It is similar to a scatter plot except that the measurement points are **ordered (typically by their x-axis value)** and joined with straight line segments
 + Often used to visualize a **trend in data over intervals of time - known as a time series** 
 

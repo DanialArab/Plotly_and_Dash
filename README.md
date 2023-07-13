@@ -56,6 +56,7 @@ They allow the comparison of two variables for a set of data.
 + A bar chart presents **categorical data** with rectangular bars with heights (or lengths) proportional to the values that they represent
 + Typically the x-axis is the categories and the y-axis is the count (number of occurances) in each category
 + The y-axis can also be any aggregarion (count, sum, average, etc.)
++ Stacked bar charts vs. nested bar charts 
 
 
 

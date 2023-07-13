@@ -39,9 +39,13 @@ Documentation: https://plotly.com/python/
     
 <a name="3"></a>
 ### Scatter plots
+
 They allow the comparison of two variables for a set of data.
 
 <a name="4"></a>
 ### Line Charts
 
++ A line chart displays a series of data points (markers) connected by line segments
++ It is similar to a scatter plot except that the measurement points are **ordered (typically by their x-axos value)** and joined with straight line segments
++ Often used to visualize a **trend in data over intervals of time - known as a time series** 
 

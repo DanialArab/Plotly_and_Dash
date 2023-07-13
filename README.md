@@ -9,6 +9,7 @@ Reference: Interactive Python Dashboards with Plotly and Dash Udemy course
    2. [Line Charts](#4)
    3. [Bar Charts](#5)
    4. [Bubble Plots](#6)
+   5. [Box Plots](#7)
 
 
 
@@ -65,4 +66,6 @@ They allow the comparison of two variables for a set of data.
 + Bubble charts are very similar to Scatter plots, except we now convey a **third variable's information** through the **size of the markers**
 + We can also continue to add variable information by coloring points based on a category
 
-  
+  <a name="7"></a>
+### Box Plots 
+

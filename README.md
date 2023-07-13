@@ -16,7 +16,8 @@ Reference: Interactive Python Dashboards with Plotly and Dash Udemy course
   + Dash is an open source librray from the Plotly company that allows you to create a full dashboard with multiple components, interactivity, and multiple plots
   + Dash produces a dashboard web applicationin in which we can interact with the dashboard
   + since Dash renders a full web app, we can then deploy our dashboards online for other people to use 
-  + 
+
+
  
     
   

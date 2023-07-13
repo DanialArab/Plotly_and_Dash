@@ -5,6 +5,8 @@ Reference: Interactive Python Dashboards with Plotly and Dash Udemy course
 
 1. [Introduction](#1)
 2. [Plotly Basics](#2)
+   1. [Scatter PLots](#3)
+   2. [Line Charts](#4)
 
 
 
@@ -38,4 +40,8 @@ Documentation: https://plotly.com/python/
 <a name="3"></a>
 ### Scatter plots
 They allow the comparison of two variables for a set of data.
+
+<a name="4"></a>
+### Line Charts
+
 

@@ -10,7 +10,8 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    4. [Bubble Plots](#6)
    5. [Box Plots](#7)
    6. [Histograms](#8)
-   7. [Distribution plots (Distplots)](#9) 
+   7. [Distribution plots (Distplots)](#9)
+   8. [Heatmaps](#10)
 
 
 
@@ -100,5 +101,8 @@ They allow the comparison of two variables for a set of data.
 + the first is histogram, where each data point is placed inside a bin of similar values
 + the second is a **rug plot** - marks are placed along the x-axis for every data point, which lets you see the distribution of values inside each bin 
 + third, **kernel density estimate** or KDE line that tries to describe the general shape of the distribution 
+
+<a name="10"></a>
+### Heatmaps
 
 

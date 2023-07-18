@@ -86,7 +86,7 @@ They allow the comparison of two variables for a set of data.
 ### Histograms  
 
 + displays an accurate representation of the overal distribution of a **continuous** feature
-+ to get the same thing for the categorical features we have bar charts, histograms are onyl for continuous feature analysis
++ to get the same thing for the categorical features we have bar charts, histograms are only for the continuous feature analysis
 + to craete a histogram, we divide the entire range of values of the continuous feature into a series of intervals, which are known as bins
 + then we count the number of occurences per bin (per interval range)
 + we can change the bin size to get either more or less detail

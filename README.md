@@ -10,6 +10,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    4. [Bubble Plots](#6)
    5. [Box Plots](#7)
    6. [Histograms](#8)
+   7. [Distplots](#9) 
 
 
 
@@ -84,5 +85,13 @@ They allow the comparison of two variables for a set of data.
 <a name="8"></a>
 ### Histograms  
 
++ displays an accurate representation of the overal distribution of a **continuous** feature
++ for categorical features we have bar charts anh histograms are onyl for continuous features
++ to craete a histogram, we divide the entire range of values of the continuous feature into a series of intervals, which are known as bins
++ then we count the number of occurences per bin (per interval range)
++ we can change the bin size to get either more or less detail
++ increased bin size --> decreased number of bins
++ to get more details: decreased bin size --> increased number of bins 
 
-
+<a name="9"></a>
+### Distplots  

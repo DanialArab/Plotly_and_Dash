@@ -35,7 +35,7 @@ Introduction
 + Dash:
   + we often want plots to be able to interact with each other, interact with components, or have plots update in real time. To accomplish these we need a dashboard
   + Dash is an open source library from the Plotly company that allows you to create a full dashboard with multiple components, interactivity, and multiple plots
-  + Dash produces a dashboard web application in which we can interact with the dashboard
+  + instead of creating an .html file, Dash produces a dashboard web application at a local url (127.0.0.1:8058) in which we can interact with the dashboard
   + since Dash renders a full web app, we can then deploy our dashboards online for other people to use 
 
 

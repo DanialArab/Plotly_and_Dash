@@ -25,7 +25,7 @@ Introduction
 
 + Dash is built upon Flask.
 + Matplotlib creates **static image files**
-+ Seaborn is designed to ctaete nice looking statistical plots (static plots)
++ Seaborn, uses matplotlib on the backend, is designed to cteate nice looking statistical plots (**static plots**)
 + Plotly:
   + is the open source library which is a general data visualization librray focused on **interactive** visualizations
   + has libraries for JavaScript, React, R, and Python (the most popular version is the Python library)

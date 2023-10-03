@@ -2,7 +2,7 @@
 
 Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-with-plotly-and-dash/'>Interactive Python Dashboards with Plotly and Dash Udemy course</a>
 
-![[(https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/course%20materials.PNG)
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/course%20materials.PNG)
 
 1. [Introduction](#1)
 2. [Plotly Basics](#2)

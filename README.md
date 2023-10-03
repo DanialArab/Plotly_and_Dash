@@ -75,7 +75,7 @@ They allow the comparison of two variables for a set of data.
       
       pyo.plot(fig, filename='scatter.html')
 
-![]()
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/scatter_plot.png)
 
 
 <a name="4"></a>

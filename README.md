@@ -24,7 +24,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
 Introduction
 
 + Dash is built upon Flask.
-+ Matplotlib creates static image files
++ Matplotlib creates **static image files**
 + Seaborn is designed to ctaete nice looking statistical plots (static plots)
 + Plotly:
   + is the open source library which is a general data visualization librray focused on **interactive** visualizations

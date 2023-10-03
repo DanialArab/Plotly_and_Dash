@@ -1,8 +1,8 @@
 # Plotly and Dash
 
-Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-with-plotly-and-dash/'>Interactive Python Dashboards with Plotly and Dash Udemy course</a>
-
 This repo documents my understanding of interactive/updatable dashboards using Python libraries. All the scripts are attached here at <a href="https://github.com/DanialArab/SQL/blob/master/Leetcode%20Database%20Questions/Leetcode_Database_Questions_Pandas_API.ipynb">Python scripts</a>. 
+
+Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-with-plotly-and-dash/'>Interactive Python Dashboards with Plotly and Dash Udemy course</a>
 
 https://github.com/DanialArab/Plotly_and_Dash/tree/main/Scripts
 

@@ -180,6 +180,31 @@ They allow the comparison of two variables for a set of data.
 + Bubble charts are very similar to Scatter plots, except we now convey a **third variable's information** through the **size of the markers**
 + We can also continue to add variable information by coloring points based on a category
 
+      import plotly.offline as pyo
+      import plotly.graph_objs as go
+      import pandas as pd
+      
+      df = pd.read_csv('/home/danial/Desktop/mydash/dash_plotly_course_material/Plotly-Dashboards-with-Dash-master/Data/mpg.csv')
+      # print (df.head())
+      # print (df.columns)
+      # print (df.describe())
+      
+      # df = df.sort_values('mpg', ascending=False)
+      data = [go.Scatter(x=df['horsepower'],
+                         y = df['mpg'],
+                         text = df['name'],
+                         mode = 'markers',
+                         marker = dict(size = df['weight']/100,
+                                       color = df['cylinders'],
+                                       showscale = True))] # marker = dict(size = 2*df['cylinders']
+      
+      layout = go.Layout(title = 'Bubble chart', hovermode = 'closest')#, hovermode = 'x'
+      fig = go.Figure(data = data, layout=layout)
+      pyo.plot(fig)
+      
+      # print(df['mpg'].isnull().sum())
+
+
 <a name="7"></a>
 ### Box Plots 
 

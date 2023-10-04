@@ -123,6 +123,7 @@ They allow the comparison of two variables for a set of data.
       pyo.plot(fig, filename='line_chart.html')
 
 
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/line_charts.png)
 
 
 <a name="5"></a>

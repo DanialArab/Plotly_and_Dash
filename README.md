@@ -204,7 +204,7 @@ They allow the comparison of two variables for a set of data.
       
       # print(df['mpg'].isnull().sum())
 
-![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/bubble_chart.png)
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/bubble_charts.png)
 
 <a name="7"></a>
 ### Box Plots 

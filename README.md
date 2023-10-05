@@ -398,5 +398,6 @@ we can have multiple heatmaps on the same plot, we use tools from plotly to gene
    + dash_html_components library contains a Python component for every HTML tag like the first-level heading H1
    + dash_core_components library offers higher-level interactive components that are generated with JavaScript, HTML, and CSS through the React.js library
 
+
  
   

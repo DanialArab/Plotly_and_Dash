@@ -316,3 +316,5 @@ They allow the comparison of two variables for a set of data.
 
 + Heatmaps allow the visualization of three features
 + Categorical or continuous features along the X and Y axis to make up a grid, and then a **third continuous feature** displayed through a color scale.
+
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/heatmaps.png)

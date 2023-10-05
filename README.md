@@ -317,4 +317,21 @@ They allow the comparison of two variables for a set of data.
 + Heatmaps allow the visualization of three features
 + Categorical or continuous features along the X and Y axis to make up a grid, and then a **third continuous feature** displayed through a color scale.
 
+      import pandas as pd
+      import plotly.graph_objs as go
+      import plotly.offline as pyo 
+      
+      
+      df = pd.read_csv('/home/danial/Desktop/mydash/dash_plotly_course_material/Plotly-Dashboards-with-Dash-master/Data/2010SantaBarbaraCA.csv')
+      
+      # print (df.head())
+      
+      data = [go.Heatmap(x=df['DAY'], y = df['LST_TIME'],
+                   z = df['T_HR_AVG'].values.tolist())]
+      
+      layput= go.Layout(title = 'SB CA Temps')
+      
+      fig = go.Figure(data=data, layout=layput) 
+      pyo.plot(fig)
+
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/heatmaps.png)

@@ -285,7 +285,7 @@ They allow the comparison of two variables for a set of data.
 
 <a name="9"></a>
 ### Distribution plots (Distplots)
-
+here
 + typically layer three plots on top of one another
 + the first is histogram, where each data point is placed inside a bin of similar values
 + the second is a **rug plot** - marks are placed along the x-axis for every data point, which lets you see the distribution of values inside each bin 

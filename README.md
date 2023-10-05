@@ -408,11 +408,15 @@ we can have multiple heatmaps on the same plot, we use tools from plotly to gene
          
          app.layout = html.Div(
          
-             children = [html.H1('Hello Dash!')]
+             children = [html.H1('Hello Dash!'), 
+                         html.Div('Dash: web dashboaards with Python')
+         
+             ]
          )
          
          if __name__ == '__main__':
              app.run_server()
+
 
 
   

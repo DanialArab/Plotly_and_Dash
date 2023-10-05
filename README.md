@@ -239,6 +239,9 @@ They allow the comparison of two variables for a set of data.
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/box_plots_all.png)
 
+
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/box_plots_outliers.png)
+
 <a name="8"></a>
 ### Histograms  
 

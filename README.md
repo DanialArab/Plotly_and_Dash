@@ -334,4 +334,4 @@ They allow the comparison of two variables for a set of data.
       fig = go.Figure(data=data, layout=layput) 
       pyo.plot(fig)
 
-![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/heatmaps.png)
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/heatmap_plot.png)

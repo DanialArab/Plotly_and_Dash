@@ -418,5 +418,33 @@ we can have multiple heatmaps on the same plot, we use tools from plotly to gene
              app.run_server()
 
 
+with a plot incorporated in the dashboard:
 
+         import dash
+         import dash_core_components as dcc 
+         import dash_html_components as html 
+         
+         
+         app = dash.Dash()
+         
+         app.layout = html.Div(
+         
+             children = [html.H1('Hello Dash!'), 
+                         html.Div('Dash: web dashboaards with Python'),
+                         dcc.Graph(id='example',
+                                    figure={'data': [
+                                        {'x':[1,2,3], 'y':[4,1,2], 'type': 'bar', 'name':'SF'},
+                                        {'x':[1,2,3], 'y':[2,4,5], 'type': 'bar', 'name':'NYC'}
+                                    ],
+                                            'layout':{
+                                                'title': ' BAR PLOTS'
+                                            }})
+         
+             ]
+         )
+         
+         if __name__ == '__main__':
+             app.run_server()
+
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/dashboard.png)
   

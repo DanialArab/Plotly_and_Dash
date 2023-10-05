@@ -314,4 +314,4 @@ They allow the comparison of two variables for a set of data.
 <a name="10"></a>
 ### Heatmaps
 
-
+here

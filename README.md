@@ -399,20 +399,20 @@ we can have multiple heatmaps on the same plot, we use tools from plotly to gene
    + dash_core_components library offers higher-level interactive components that are generated with JavaScript, HTML, and CSS through the React.js library
 
 
-      import dash
-      import dash_core_components as dcc 
-      import dash_html_components as html 
-      
-      
-      app = dash.Dash()
-      
-      app.layout = html.Div(
-      
-          children = [html.H1('Hello Dash!')]
-      )
-      
-      if __name__ == '__main__':
-          app.run_server()
+         import dash
+         import dash_core_components as dcc 
+         import dash_html_components as html 
+         
+         
+         app = dash.Dash()
+         
+         app.layout = html.Div(
+         
+             children = [html.H1('Hello Dash!')]
+         )
+         
+         if __name__ == '__main__':
+             app.run_server()
 
 
   

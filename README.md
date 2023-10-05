@@ -285,11 +285,29 @@ They allow the comparison of two variables for a set of data.
 
 <a name="9"></a>
 ### Distribution plots (Distplots)
-here
+
 + typically layer three plots on top of one another
 + the first is histogram, where each data point is placed inside a bin of similar values
 + the second is a **rug plot** - marks are placed along the x-axis for every data point, which lets you see the distribution of values inside each bin 
 + third, **kernel density estimate** or KDE line that tries to describe the general shape of the distribution 
+
+      import numpy as np
+      import plotly.offline as pyo
+      import plotly.figure_factory as ff
+      
+      # x = np.random.randn(1000)
+      
+      x1 = np.random.randn(200) -2
+      x2 = np.random.randn(200)
+      x3 = np.random.randn(200) + 2
+      x4 = np.random.randn(200) + 4
+      
+      hist_data = [x1, x2, x3, x4] 
+      
+      group_labels =['x1', 'x2', 'x3', 'x4']
+      
+      fig = ff.create_distplot(hist_data, group_labels, bin_size=[.2,.1,.3,.4])
+      pyo.plot(fig)
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/dist_plots.png)
 

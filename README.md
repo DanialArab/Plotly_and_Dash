@@ -482,4 +482,4 @@ with a plot incorporated in the dashboard:
           app.run_server()
 
 
-![]()
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/dashboard_styling.png)

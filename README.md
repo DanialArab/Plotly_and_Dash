@@ -17,7 +17,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    6. [Histograms](#8)
    7. [Distribution plots (Distplots)](#9)
    8. [Heatmaps](#10)
-
+3. [Dash Basics - Layout](#11)
 
 
    
@@ -382,3 +382,8 @@ we can have multiple heatmaps on the same plot, we use tools from plotly to gene
       pyo.plot(fig)
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/heatmaps_subplots.png)
+
+<a name="11"></a>
+## Dash Basics - Layout
+
+here

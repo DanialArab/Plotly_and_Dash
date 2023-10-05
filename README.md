@@ -335,3 +335,7 @@ They allow the comparison of two variables for a set of data.
       pyo.plot(fig)
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/heatmap_plot.png)
+
+we can have multiple heatmaps on the same plot, we use tools from plotly to generate subplots:
+
+

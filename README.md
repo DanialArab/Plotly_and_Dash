@@ -386,4 +386,17 @@ we can have multiple heatmaps on the same plot, we use tools from plotly to gene
 <a name="11"></a>
 ## Dash Basics - Layout
 
-here
++ Dash is for creating dashboards purely in Python.
++ Typically, for things in the past, you would have had to have known all the front-end technologies to create a dashboard web application such as HTML, CSS, and JavaScript. But Dash allows you to do this all purely in Python, and then these dashboards are served as web applications.
++ We can connect and interact with dashboards
++ Dash apps are mainly composed of two parts: 
+   + The layout of the app, which describes what the application actually looks like. It is where your visualizations are going to go inside your dashboard.
+   + The second part of Dash describes the interactivity of the application. For example, if you move a slider in your dashboard, how does that affect the visualization?
++ The good news is you don't actually need to know any HTML or CSS to use dash. We get to do all of this purely in Python:
+   + Most HTML tags are provided as Python classes within dash
++ Dash offers two distinct component libraries:
+   + dash_html_components library contains a Python component for every HTML tag like the first-level heading H1
+   + dash_core_components library offers higher-level interactive components that are generated with JavaScript, HTML, and CSS through React.js library
+
+here 
+  

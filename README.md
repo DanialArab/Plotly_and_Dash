@@ -291,6 +291,8 @@ here
 + the second is a **rug plot** - marks are placed along the x-axis for every data point, which lets you see the distribution of values inside each bin 
 + third, **kernel density estimate** or KDE line that tries to describe the general shape of the distribution 
 
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/dist_plots.png)
+
 <a name="10"></a>
 ### Heatmaps
 

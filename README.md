@@ -18,7 +18,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    7. [Distribution plots (Distplots)](#9)
    8. [Heatmaps](#10)
 3. [Dash Basics - Layout](#11)
-   1. [Dash layout)(#12)
+   1. [Dash layout](#12)
    2. [Converting Plotly to Dash](#13)
 
 

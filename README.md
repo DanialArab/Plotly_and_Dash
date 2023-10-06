@@ -25,7 +25,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    2. [Core components](#16)
    3. [Markdown with Dash](#17)
    4. [Using help() with Dash](#18) 
-
+5. [Interactive components](#19)
    
 <a name="1"></a>
 ## Introduction
@@ -828,5 +828,8 @@ returns me back:
        |      overrides the normal algorithm (and the outcome is cached).
       
       None
+
+<a name="19"></a>
+## Interactive components
 
 

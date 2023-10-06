@@ -20,7 +20,11 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
 3. [Dash Basics - Layout](#11)
    1. [Dash layout](#12)
    2. [Converting Plotly to Dash](#13)
-4. [Dashboard components](#14) 
+4. [Dashboard components](#14)
+   1. [html components](#15)
+   2. [Core components](#16)
+   3. [Markdown with Dash](#17)
+   4. [Using help() with Dash](#18) 
 
    
 <a name="1"></a>
@@ -557,6 +561,16 @@ with a plot incorporated in the dashboard:
 + html components describe the layout of the page including placement and alignment of different graphs, you can apply CSS stylings to those HTML components
 + dcc components describe the individual graphs themselves 
 
+<a name="15"></a>
+### html components
 
+<a name="16"></a>
+### Core components
+
+<a name="17"></a>
+### Markdown with Dash
+
+<a name="18"></a>
+### Using help() with Dash
 
 

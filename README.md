@@ -564,6 +564,12 @@ with a plot incorporated in the dashboard:
 <a name="15"></a>
 ### html components
 
+Dash allows us to leverage previous knowledge of HTML and CSS to create very customized dashboards:
++ the main process is to pick the relevant HTML component from the HTML component library with Dash,
++ then we can insert parameters into the HTML components.
++ then we adjust a CSS style dictionary which allows you to also define a general CSS style dictionary
+
+
 <a name="16"></a>
 ### Core components
 

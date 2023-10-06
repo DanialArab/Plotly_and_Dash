@@ -640,10 +640,12 @@ Some clarification:
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/core_components.png)
 
-
-
 <a name="17"></a>
 ### Markdown with Dash
+
++ Dashboards can also display markdown text which allows for links, italics, bold texts, bullet lists, and a lot more functionality, more than just a normal string.
++ more details on <a href=" https://commonmark.org/help/">here</a> 
+
 
 <a name="18"></a>
 ### Using help() with Dash

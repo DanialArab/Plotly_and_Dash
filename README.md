@@ -551,7 +551,11 @@ with a plot incorporated in the dashboard:
 <a name="14"></a>
 ## Dashboard components
 
-
++ Dash components are provided by two main libraries:
+   + dash_html_components
+   + dash_core_components 
++ html components describe the layout of the page including placement and alignment of different graphs, you can apply CSS stylings to those HTML components
++ dcc components describe the individual graphs themselves 
 
 
 

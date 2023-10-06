@@ -606,6 +606,40 @@ Some clarification:
 + Dah core components are more abstract (higher level) calls that allow us to quickly insert common components into our dashboard
 + A reference to all available dash core components can be found <a href="https://dash.plotly.com/dash-core-components">here</a>
 
+      import dash
+      import dash_core_components as dcc
+      import dash_html_components as html 
+      
+      app = dash.Dash()
+      
+      app.layout = html.Div([
+      
+          html.Label('Dropdown'),
+          dcc.Dropdown(options=[{'label': 'New York City',
+                                 'value': 'NYC'},
+                                 {'label': 'San Fransisco',
+                                 'value': 'SF'}],
+                      value='SF'),
+      
+          html.Label('Slider'), 
+          dcc.Slider(min=-10, max=10, step=0.5, value=0,
+                     marks={i: i for i in range(-10, 10)}),
+      
+          html.P(html.Label('Some Radio Items')),
+          dcc.RadioItems(options=[{'label': 'New York City',
+                                 'value': 'NYC'},
+                                 {'label': 'San Fransisco',
+                                 'value': 'SF'}],
+                          value='SF')
+      ])
+      
+      
+      if __name__ == '__main__':
+          app.run_server()
+
+
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/core_components.png)
+
 
 
 <a name="17"></a>

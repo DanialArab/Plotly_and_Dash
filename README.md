@@ -492,7 +492,7 @@ with a plot incorporated in the dashboard:
 <a name="13"></a>
 ### Converting Plotly to Dash 
 
-+ Dash allows us to easily insert PLotly graphs into the dashboard.
++ Dash allows us to easily insert Plotly graphs into the dashboard.
 
       import dash
       import dash_core_components as dcc

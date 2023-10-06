@@ -492,3 +492,12 @@ with a plot incorporated in the dashboard:
 <a name="13"></a>
 ### Converting Plotly to Dash 
 
++ Dash allows us to easily insert PLotly graphs into the dashboard.
+
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/converting_plotly_to_dash.png)
+
+
+
+
+
+

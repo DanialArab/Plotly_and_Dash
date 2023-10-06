@@ -569,7 +569,16 @@ Dash allows us to leverage previous knowledge of HTML and CSS to create very cus
 + then we can insert parameters into the HTML components.
 + then we adjust a CSS style dictionary which allows you to also define a general CSS style dictionary for our entire web application 
 
-Technically, no knowledge of HTML or CSS is truly needed to create a dashboard because we're never actually writing pure HTML or pure CSS. Instead, we're just doing calls to a python library that does it for us. But in order to actually stylize and customize dashboards, especially to your specific liking, it's really going to be helpful to understand HTML and CSS to really get an idea of what these actual Python calls are doing.
+Technically, no knowledge of HTML or CSS is truly needed to create a dashboard because we're never actually writing pure HTML or pure CSS. Instead, we're just doing calls to a Python library that does it for us. But in order to actually stylize and customize dashboards, especially to your specific liking, it's really going to be helpful to understand HTML and CSS to really get an idea of what these actual Python calls are doing.
+
+Some clarification:
++ An HTML Div element is a division:
+   + It is a section or block of the web app (dashboard)
++ CSS allows for styling HTML elements:
+   + fonts, colors, borders, etc.
+   + Dash uses dictionaries to pass in CSS style calls
+ 
+
 
 <a name="16"></a>
 ### Core components

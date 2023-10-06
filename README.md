@@ -567,8 +567,9 @@ with a plot incorporated in the dashboard:
 Dash allows us to leverage previous knowledge of HTML and CSS to create very customized dashboards:
 + the main process is to pick the relevant HTML component from the HTML component library with Dash,
 + then we can insert parameters into the HTML components.
-+ then we adjust a CSS style dictionary which allows you to also define a general CSS style dictionary
++ then we adjust a CSS style dictionary which allows you to also define a general CSS style dictionary for our entire web application 
 
+Technically, no knowledge of HTML or CSS is truly needed to create a dashboard because we're never actually writing pure HTML or pure CSS. Instead, we're just doing calls to a python library that does it for us. But in order to actually stylize and customize dashboards, especially to your specific liking, it's really going to be helpful to understand HTML and CSS to really get an idea of what these actual Python calls are doing.
 
 <a name="16"></a>
 ### Core components

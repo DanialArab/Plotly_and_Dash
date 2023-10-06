@@ -18,6 +18,8 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    7. [Distribution plots (Distplots)](#9)
    8. [Heatmaps](#10)
 3. [Dash Basics - Layout](#11)
+   1. [Dash layout)(#12)
+   2. [Converting Plotly to Dash](#13)
 
 
    
@@ -398,6 +400,8 @@ we can have multiple heatmaps on the same plot, we use tools from plotly to gene
    + dash_html_components library contains a Python component for every HTML tag like the first-level heading H1
    + dash_core_components library offers higher-level interactive components that are generated with JavaScript, HTML, and CSS through the React.js library
 
+<a name="12"></a>
+### Dash layout
 
          import dash
          import dash_core_components as dcc 
@@ -483,3 +487,8 @@ with a plot incorporated in the dashboard:
 
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/dashboard_styling.png)
+
+
+<a name="13"></a>
+### Converting Plotly to Dash 
+

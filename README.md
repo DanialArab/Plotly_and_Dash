@@ -603,6 +603,10 @@ Some clarification:
 <a name="16"></a>
 ### Core components
 
++ Dah core components are more abstract (higher level) calls that allow us to quickly insert common components into our dashboard
++ A reference to all available dash core components can be found <a href="https://dash.plotly.com/dash-core-components">here</a>
+
+
 <a name="17"></a>
 ### Markdown with Dash
 

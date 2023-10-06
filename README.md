@@ -673,3 +673,160 @@ Some clarification:
 ### Using help() with Dash
 
 
+      import dash_html_components as html 
+      
+      print(help(html.Div))
+
+returns me back:
+
+      Help on class Div in module builtins:
+      
+      class Div(dash.development.base_component.Component)
+       |  A Div component.
+       |  
+       |  
+       |  Keyword arguments:
+       |  - children (optional): The children of this component
+       |  - id (optional): The ID of this component, used to identify dash components
+       |  in callbacks. The ID needs to be unique across all of the
+       |  components in an app.
+       |  - n_clicks (optional): An integer that represents the number of times
+       |  that this element has been clicked on.
+       |  - key (optional): A unique identifier for the component, used to improve
+       |  performance by React.js while rendering components
+       |  See https://reactjs.org/docs/lists-and-keys.html for more info
+       |  - accessKey (optional): Defines a keyboard shortcut to activate or add focus to the element.
+       |  - className (optional): Often used with CSS to style elements with common properties.
+       |  - contentEditable (optional): Indicates whether the element's content is editable.
+       |  - contextMenu (optional): Defines the ID of a <menu> element which will serve as the element's context menu.
+       |  - dir (optional): Defines the text direction. Allowed values are ltr (Left-To-Right) or rtl (Right-To-Left)
+       |  - draggable (optional): Defines whether the element can be dragged.
+       |  - hidden (optional): Prevents rendering of given element, while keeping child elements, e.g. script elements, active.
+       |  - lang (optional): Defines the language used in the element.
+       |  - spellCheck (optional): Indicates whether spell checking is allowed for the element.
+       |  - style (optional): Defines CSS styles which will override styles previously set.
+       |  - tabIndex (optional): Overrides the browser's default tab order and follows the one specified instead.
+       |  - title (optional): Text to be displayed in a tooltip when hovering over the element.
+       |  - fireEvent (optional): A callback for firing events to dash.
+       |  
+       |  Available events:
+       |  
+       |  Method resolution order:
+       |      Div
+       |      dash.development.base_component.Component
+       |      collections.abc.MutableMapping
+       |      collections.abc.Mapping
+       |      collections.abc.Collection
+       |      collections.abc.Sized
+       |      collections.abc.Iterable
+       |      collections.abc.Container
+       |      object
+       |  
+       |  Methods defined here:
+       |  
+       |  __init__(self, children=None, **kwargs)
+       |  
+       |  __repr__(self)
+       |  
+       |  ----------------------------------------------------------------------
+       |  Data and other attributes defined here:
+       |  
+       |  __abstractmethods__ = frozenset()
+       |  
+       |  ----------------------------------------------------------------------
+       |  Methods inherited from dash.development.base_component.Component:
+       |  
+       |  __delitem__(self, id)
+       |      Delete items by ID in the tree of children.
+       |  
+       |  __getitem__(self, id)
+       |      Recursively find the element with the given ID through the tree
+       |      of children.
+       |  
+       |  __iter__(self)
+       |      Yield IDs in the tree of children.
+       |  
+       |  __len__(self)
+       |      Return the number of items in the tree.
+       |  
+       |  __setitem__(self, id, item)
+       |      Set an element by its ID.
+       |  
+       |  to_plotly_json(self)
+       |  
+       |  traverse(self)
+       |      Yield each item in the tree.
+       |  
+       |  ----------------------------------------------------------------------
+       |  Data descriptors inherited from dash.development.base_component.Component:
+       |  
+       |  __dict__
+       |      dictionary for instance variables (if defined)
+       |  
+       |  __weakref__
+       |      list of weak references to the object (if defined)
+       |  
+       |  ----------------------------------------------------------------------
+       |  Methods inherited from collections.abc.MutableMapping:
+       |  
+       |  clear(self)
+       |      D.clear() -> None.  Remove all items from D.
+       |  
+       |  pop(self, key, default=<object object at 0x7f1036302050>)
+       |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
+       |      If key is not found, d is returned if given, otherwise KeyError is raised.
+       |  
+       |  popitem(self)
+       |      D.popitem() -> (k, v), remove and return some (key, value) pair
+       |      as a 2-tuple; but raise KeyError if D is empty.
+       |  
+       |  setdefault(self, key, default=None)
+       |      D.setdefault(k[,d]) -> D.get(k,d), also set D[k]=d if k not in D
+       |  
+       |  update(*args, **kwds)
+       |      D.update([E, ]**F) -> None.  Update D from mapping/iterable E and F.
+       |      If E present and has a .keys() method, does:     for k in E: D[k] = E[k]
+       |      If E present and lacks .keys() method, does:     for (k, v) in E: D[k] = v
+       |      In either case, this is followed by: for k, v in F.items(): D[k] = v
+       |  
+       |  ----------------------------------------------------------------------
+       |  Methods inherited from collections.abc.Mapping:
+       |  
+       |  __contains__(self, key)
+       |  
+       |  __eq__(self, other)
+       |      Return self==value.
+       |  
+       |  get(self, key, default=None)
+       |      D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None.
+       |  
+       |  items(self)
+       |      D.items() -> a set-like object providing a view on D's items
+       |  
+       |  keys(self)
+       |      D.keys() -> a set-like object providing a view on D's keys
+       |  
+       |  values(self)
+       |      D.values() -> an object providing a view on D's values
+       |  
+       |  ----------------------------------------------------------------------
+       |  Data and other attributes inherited from collections.abc.Mapping:
+       |  
+       |  __hash__ = None
+       |  
+       |  __reversed__ = None
+       |  
+       |  ----------------------------------------------------------------------
+       |  Class methods inherited from collections.abc.Collection:
+       |  
+       |  __subclasshook__(C) from abc.ABCMeta
+       |      Abstract classes can override this to customize issubclass().
+       |      
+       |      This is invoked early on by abc.ABCMeta.__subclasscheck__().
+       |      It should return True, False or NotImplemented.  If it returns
+       |      NotImplemented, the normal algorithm is used.  Otherwise, it
+       |      overrides the normal algorithm (and the outcome is cached).
+      
+      None
+
+

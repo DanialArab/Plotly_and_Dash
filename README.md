@@ -7,7 +7,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/course%20materials.PNG)
 
-1. [Introduction](#1)
+1. [Introduction](#1) 
 2. [Plotly Basics](#2)
    1. [Scatter Plots](#3)
    2. [Line Charts](#4)

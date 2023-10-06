@@ -20,7 +20,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
 3. [Dash Basics - Layout](#11)
    1. [Dash layout](#12)
    2. [Converting Plotly to Dash](#13)
-
+4. [Dashboard components](#14) 
 
    
 <a name="1"></a>
@@ -546,6 +546,10 @@ with a plot incorporated in the dashboard:
           app.run_server()
     
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/converting_plotly_to_dash.png)
+
+
+<a name="14"></a>
+## Dashboard components
 
 
 

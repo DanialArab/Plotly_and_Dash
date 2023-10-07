@@ -26,6 +26,8 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    3. [Markdown with Dash](#17)
    4. [Using help() with Dash](#18) 
 5. [Interactive components](#19)
+   1. [Single callbacks for interactivity](#20)
+   2. 
    
 <a name="1"></a>
 ## Introduction
@@ -831,5 +833,11 @@ returns me back:
 
 <a name="19"></a>
 ## Interactive components
+
+
+<a name="20"></a>
+### Single callbacks for interactivity
+
+So we already understand how we can adjust the layout of a dash application through the use of components, either HTML components or dash core components. Now we're going to learn how to interact and connect to those same components through the use of **callbacks.**
 
 

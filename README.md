@@ -1109,6 +1109,9 @@ let's see how we can update the image:
 + We achieve this using **dash.dependencies.State**
 + Dash offers the ability to store saved changes and send them back on command
 + You can think of this as hitting a submit button on a form
++ **State() is added to the @app.callback along with an Input() and Output()**
++ The state is then connected to a component id and a property id to report back
++ You can check the component API docs to see what properties are available for the components 
 
       import dash
       import dash_html_components as html

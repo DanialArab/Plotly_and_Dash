@@ -29,6 +29,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    1. [Single callbacks for interactivity](#20)
    2. [Dash callbacks for graphs ](#21)
    3. [Multiple inputs](#22)
+   4. [Multiple outputs](#23)
    
 <a name="1"></a>
 ## Introduction
@@ -986,4 +987,7 @@ Let's see how we can connect multiple inputs to a single output in a graph.
           app.run_server()
           
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/multiple_inputs.png)
+
+<a name="23"></a>
+### Multiple outputs
 

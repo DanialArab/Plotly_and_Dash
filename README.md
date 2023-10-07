@@ -27,7 +27,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    4. [Using help() with Dash](#18) 
 5. [Interactive components](#19)
    1. [Single callbacks for interactivity](#20)
-   2. 
+   2. [Dash callbacks for graphs ](#21)
    
 <a name="1"></a>
 ## Introduction
@@ -846,7 +846,29 @@ So we already understand how we can adjust the layout of a dash application thro
    + Set an input to a component id
 + Connect the desired properties
 
+      import dash
+      import dash_html_components as html 
+      import dash_core_components as dcc
+      from dash.dependencies import Input, Output
+      
+      app = dash.Dash()
+      
+      app.layout = html.Div([
+          dcc.Input(id='my-id', value='Initial Text', type='text'),
+          html.Div(id='my-div')
+      ])
+      
+      @app.callback(Output(component_id='my-div', component_property='children'),
+                    [Input(component_id='my-id', component_property='value')])
+      def update_output_div(input_value):
+          return f'You entered: {input_value}'
+      
+      if __name__ == '__main__':
+          app.run_server()
+
+![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/Callbacks.png)
 
 
-
+<a name="21"></a>
+### Dash callbacks for graphs 
 

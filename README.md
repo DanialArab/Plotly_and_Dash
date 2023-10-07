@@ -927,7 +927,7 @@ So we already understand how we can adjust the layout of a dash application thro
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/callbacks_for_graphs.png)
 
-<a name="21"></a>
+<a name="22"></a>
 ### Multiple inputs
 
 Let's see how we can connect multiple inputs to a single output in a graph. 

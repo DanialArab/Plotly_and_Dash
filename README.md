@@ -28,6 +28,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
 5. [Interactive components](#19)
    1. [Single callbacks for interactivity](#20)
    2. [Dash callbacks for graphs ](#21)
+   3. [Multiple inputs](#22)
    
 <a name="1"></a>
 ## Introduction
@@ -924,6 +925,10 @@ So we already understand how we can adjust the layout of a dash application thro
       if __name__ == '__main__':
           app.run_server()
 
-
-
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/callbacks_for_graphs.png)
+
+<a name="21"></a>
+### Multiple inputs
+
+Let's see how we can connect multiple inputs to a single output in a graph. 
+

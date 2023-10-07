@@ -30,7 +30,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    2. [Dash callbacks for graphs ](#21)
    3. [Multiple inputs](#22)
    4. [Multiple outputs](#23)
-6. [Callbacks with State](#24)
+6. [Controlling callbacks with State](#24)
 
   
 <a name="1"></a>
@@ -1102,5 +1102,5 @@ let's see how we can update the image:
 
 
 <a name="24"></a>
-## Callbacks with State
+## Controlling callbacks with State
 

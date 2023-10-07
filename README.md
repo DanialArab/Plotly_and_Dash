@@ -1104,6 +1104,12 @@ let's see how we can update the image:
 <a name="24"></a>
 ## Controlling callbacks with State
 
++ In the previous interactive examples, we have seen how inputs **immediately** affect outputs: as soon as values are entered the page updates to reflect any changes
++ What if we want to wait before displaying the page? what is we want time to enter a series of changes before submitting them? ---> State
++ We achieve this using **dash.dependencies.State**
++ Dash offers the ability to store saved changes and send them back on command
++ You can think of this as hitting a submit button on a form
+
       import dash
       import dash_html_components as html
       import dash_core_components as dcc

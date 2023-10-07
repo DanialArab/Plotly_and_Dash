@@ -838,6 +838,14 @@ returns me back:
 <a name="20"></a>
 ### Single callbacks for interactivity
 
-So we already understand how we can adjust the layout of a dash application through the use of components, either HTML components or dash core components. Now we're going to learn how to interact and connect to those same components through the use of **callbacks.**
+So we already understand how we can adjust the layout of a dash application through the use of components, either HTML components or dash core components. Now let's see how to interact and connect to those same components through the use of **callbacks** through the following steps:
+
++ Create a function to return some desired output
++ Decorate that function with an **@app.callback** decorator
+   + Set an output to a component id
+   + Set an input to a component id
++ Connect the desired properties
+
+
 
 

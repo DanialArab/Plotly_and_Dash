@@ -31,7 +31,8 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
    3. [Multiple inputs](#22)
    4. [Multiple outputs](#23)
 6. [Controlling callbacks with State](#24)
-
+7. [Interacting with visualizations](#25)
+   1. [Hover over data](#26)
   
 <a name="1"></a>
 ## Introduction
@@ -1142,4 +1143,14 @@ let's see how we can update the image:
           app.run_server() 
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/controlling_callbacks_with_state.png)
+
+<a name="25"></a>
+## Interacting with visualizations
+
+<a name="26"></a>
+### Hover over data
+
++ When we hover over PLotly graphs, information is displayed
++ This info can be served internally using **JSON** and then parsed for specific info
++ Every graph has a **hoverData** component property that can be accessed
 

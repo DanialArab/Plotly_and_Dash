@@ -1150,6 +1150,11 @@ let's see how we can update the image:
 <a name="26"></a>
 ### Hover over data
 
+
+
+
+
+
 + When we hover over PLotly graphs, information is displayed
 + This info can be served internally using **JSON** and then parsed for specific info
 + Every graph has a **hoverData** component property that can be accessed

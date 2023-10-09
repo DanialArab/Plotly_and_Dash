@@ -33,6 +33,7 @@ Reference: <a href='https://www.udemy.com/course/interactive-python-dashboards-w
 6. [Controlling callbacks with State](#24)
 7. [Interacting with visualizations](#25)
    1. [Hover over data](#26)
+   2. [Click data](#27)
   
 <a name="1"></a>
 ## Introduction
@@ -1204,4 +1205,17 @@ let's see how we can update the image:
           app.run_server()
 
 ![](https://github.com/DanialArab/images/blob/main/Plotly_and_Dash/hover-over-data.png)
+
+<a name="27"></a>
+### Click data
+
+The only required change to the previous script, above, is 
+
+      @app.callback(Output('hover-data', 'src'),
+                    [Input('wheels-plot', 'clickData')])
+
+now, to see the changes in the dashboard we do need to click on the plot and not just hover over it.
+
+<a name="28"></a>
+### Selection data
 
